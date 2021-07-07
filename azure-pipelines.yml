@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  subscription: Microsoft Azure(06698be3-7107-4e65-ac59-1967f7c7c43e)
+  subscription: Microsoft Azure(1fe9963c-1fe2-4dcc-83a7-b49978ffb277)
   resourceGroup: resourcegroup-tfstate
   storageAccount: terraformtfstateskip1
   container: tfstate1
