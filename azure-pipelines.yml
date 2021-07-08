@@ -36,7 +36,7 @@ steps:
   inputs:
     provider: 'azurerm'
     command: 'plan'
-    workingDirectory: '$(System.DefaultWorkingDirectory)/skip-step'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/skip-step/'
     commandOptions: '-out=tfplan'
     # commandOptions: '-detailed-exitcode -out=tfplan'
     environmentServiceNameAzureRM: '$(subscription)'
